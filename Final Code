@@ -1,0 +1,23 @@
+age = input("What is your current age?")
+
+real_age = int(age)
+
+days = (real_age * 365) 
+weeks = (real_age * 52)
+months = (real_age * 12)
+max_days = (90 * 365)
+max_weeks = (90 * 52)
+max_months = (90 * 12)
+
+days_left = (max_days - days)
+weeks_left = (max_weeks - weeks)
+months_left = (max_months - months)
+
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
+
+
+
+
+
+
+
